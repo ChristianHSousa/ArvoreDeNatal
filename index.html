@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arvore de Natal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="tudo">
+    <div class="arvore">
+      <div class="estrela">
+        <div class="estrelinha estrelinha-1"></div>
+        <div class="estrelinha estrelinha-2"></div>
+        <div class="estrelinha estrelinha-3"></div>
+      </div>
+      <div class="triangulo-1">
+        <div class="detalhe"></div>
+        <div class="circle-3"></div>
+        <div class="anime light"></div>
+      </div>
+      <div class="sombra-1"></div>
+      <div class="triangulo-2">
+        <div class="detalhe-8"></div>
+        <div class="detalhe-9"></div>
+        <div class="circle-4"></div>
+        <div class="anime light-1"></div>
+        <div class="anime light-7"></div>
+        <div class="anime light-2"></div>
+      </div>
+      <div class="sombra-2"></div>
+      <div class="triangulo-3">
+        <div class="detalhe-6"></div>
+        <div class="detalhe-7"></div>
+        <div class="circle"></div>
+        <div class="anime light--8"></div>
+        <div class="anime light--5"></div>
+      </div>
+      <div class="sombra-3"></div>
+      <div class="triangulo-4">
+        <div class="detalhe-4"></div>
+        <div class="detalhe-5"></div>
+        <div class="circle-2"></div>
+        <div class="anime light-4"></div>
+        <div class="anime light-3"></div>
+        <div class="anime light-6"></div>
+      </div>
+      <div class="caule">
+        <div class="sombra"></div>
+        <div class="caule-1"></div>
+        <div class="caule-2"></div>
+        <div class="sombra-bola"></div>
+      </div>
+      <span class="AnoNovo">Boas Festas a Todos</span>
+      <div class="FelizNatal">
+        <div>F</div>
+        <div>E</div>
+        <div>L</div>
+        <div>I</div>
+        <div>Z</div>
+        <div> </div>
+        <div>N</div>
+        <div>A</div>
+        <div>T</div>
+        <div>A</div>
+        <div>L</div>
+      </div>
+    </div>
+
+    <script>
+      let deg = 20; for (let i = 1; i <= 60; i++) {let div = document.querySelector('.FelizNatal div:nth-child(' + i + ')');div.style.transform = 'rotate(' + deg + 'deg)';deg = deg + 8;}
+    </script>
+    </div>
+  </body>
+</html>
